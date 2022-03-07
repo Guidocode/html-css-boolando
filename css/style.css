@@ -28,7 +28,7 @@
 
 
 /* PARTE SUPERIORE SINGOLO PRODOTTO  */
-.product-top{
+.product .product-top{
   position: relative; 
 }
 
@@ -50,27 +50,26 @@
   display: block;
 }
 
-
-.product-top .discount{
+.product .product-top .label{
   position: absolute;
-  bottom: 20px;
+  bottom: 25px;
   left: 0;
-  padding: 5px;
-  background-color: #EA0036;
   color: white;
   font-size: 10px;
   font-weight: bold;
+  
+}
+
+.product-top .label .discount, .product-top .label .eco{
+  padding: 5px;
+}
+
+.product-top .discount{
+  background-color: #EA0036;
 }
 
 .product-top .eco{
-  position: absolute;
-  bottom: 20px;
-  left: 37px;
-  padding: 5px;
   background-color: #00865B;
-  color: white;
-  font-size: 10px;
-  font-weight: bold;
 }
 
 .product-top .heart{
@@ -86,7 +85,7 @@
 
 /* PARTE INFERIORE SINGOLO PRODOTTO  */
 .product-bottom span{
-  font-size: 11px;
+  font-size: .7rem;
   font-weight: 100;
 }
 
