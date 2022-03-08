@@ -14,6 +14,12 @@
 }
 
 
+.clearfix::after{
+  content: '';
+  display: block;
+  clear: both;
+}
+
 
 /* 
   MAIN 
@@ -47,7 +53,7 @@
 }
 
 .product:hover .img-hover{
-  display: block;
+  display: block; /* Qui era inline-block perché è più pulito  */
 }
 
 .product .product-top .label{
